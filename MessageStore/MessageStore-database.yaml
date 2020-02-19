@@ -3,7 +3,7 @@
 MSDatabase:
   #url: "jdbc:oracle:thin:@IN2NPDLNXDB18:1521:if18cb"
   #driverClassName: "oracle.jdbc.driver.OracleDriver"
-  url: "jdbc:sqlserver://IN2NPDVDCS03\WMS2017:60082;databaseName=SPMessageStoreDB"
+  url: "jdbc:sqlserver://IN2NPDVDCS03/WMS2017:60082;databaseName=SPMessageStoreDB"
   driverClassName: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
   #driverClassName: "net.sourceforge.jtds.jdbc.Driver"
   user: "sa"
