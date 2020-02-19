@@ -1,0 +1,18 @@
+# Type of queue Message Broker should use
+# Accepted values: VM, JMS
+mb:
+  pipe:
+    queue:
+      type: "JMS"
+
+#Message Broker JMS Queue with AcitveMQ Properties
+    jms:
+      brokerURL: "failover://tcp://localhost:61616"
+      user: "admin"
+      password-secure: "admin"
+      maxConnections: "10"
+      concurrentConsumers: "10"
+      initialRedeliveryDelay: "20000"
+      redeliveryDelay: "20000"
+      sessionCacheSize: "100"
+      maximumRedeliveries: "5"

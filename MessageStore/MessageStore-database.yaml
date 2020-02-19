@@ -1,0 +1,19 @@
+# Properties relating to Database
+
+MSDatabase:
+  #url: "jdbc:oracle:thin:@IN2NPDLNXDB18:1521:if18cb"
+  #driverClassName: "oracle.jdbc.driver.OracleDriver"
+  url: "jdbc:sqlserver://azpsrwmsdb01:1433;databaseName=IFMessageStoreDB"
+  driverClassName: "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+  #driverClassName: "net.sourceforge.jtds.jdbc.Driver"
+  user: "sa"
+  password: "P@ssw0rd#100"
+        
+  connection:
+    maxPoolSize: "30"
+    minPoolSize: "10"
+    preparedStatementCacheSize: "10"
+    maxWait: "10"
+    acquireIncrement: "2"
+
+queryTimeout: "500"
